@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Patrio - Personajes Ilustres</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="bandera.png" alt="Bandera de México" class="hero-img">
+            <h1>Bienvenid@</h1>
+            <p class="subtitle">Acontecimientos más relevantes del Mes Patrio</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html" class="btn-nav">Fechas Importantes</a>
+        <a href="personajes.html" class="btn-nav active">Personajes Ilustres</a>
+        <a href="sabias-que.html" class="btn-nav">¿Sabías que...?</a>
+    </nav>
+
+    <main class="main-container">
+
+        <section class="section-card">
+            <h2 class="title-serif">Personajes Ilustres</h2>
+            
+            <div class="grid-personajes">
+                <div class="card-personaje">
+                    <img src="hidalgo.jpg" alt="Miguel Hidalgo" class="img-personaje">
+                    <h3>Miguel Hidalgo y Costilla</h3>
+                    <p class="tag">Padre de la Patria</p>
+                    <p>Líder intelectual y religioso que inició el movimiento insurgente.</p>
+                </div>
+
+                <div class="card-personaje">
+                    <img src="morelos.jpg" alt="José María Morelos" class="img-personaje">
+                    <h3>José María Morelos y Pavón</h3>
+                    <p class="tag">Siervo de la Nación</p>
+                    <p>Estratega militar que redactó <em>Los Sentimientos de la Nación</em>, documento clave para las primeras instituciones del país.</p>
+                </div>
+
+                <div class="card-personaje">
+                    <img src="josefa.jpg" alt="Josefa Ortiz de Domínguez" class="img-personaje">
+                    <h3>Josefa Ortiz de Domínguez</h3>
+                    <p class="tag">La Corregidora</p>
+                    <p>Pieza clave de la conspiración de Querétaro que avisó a los insurgentes sobre el descubrimiento de la trama.</p>
+                </div>
+
+                <div class="card-personaje">
+                    <img src="guerrero.jpg" alt="Vicente Guerrero" class="img-personaje">
+                    <h3>Vicente Guerrero</h3>
+                    <p class="tag">Consumador de la Independencia</p>
+                    <p>Líder insurgente que mantuvo viva la resistencia en el sur y acordó el Abrazo de Acatempan para consumar la independencia.</p>
+                </div>
+
+                <div class="card-personaje">
+                    <img src="allende.jpg" alt="Ignacio Allende" class="img-personaje">
+                    <h3>Ignacio Allende</h3>
+                    <p class="tag">Capitán Insurgente</p>
+                    <p>Capitán del ejército virreinal que se unió a la causa insurgente y asumió el liderazgo militar de las primeras fases de la guerra.</p>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <p>Lira Molina Dylan Daniel 5 J</p>
+            </div>
+        </section>
+
+        <div class="action-banner">
+            <a href="sabias-que.html" class="btn-action">Presiona aquí para ir a la sección "¿Sabías que?" &rarr;</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="student-info">Lira Molina Dylan Daniel 5 J</p>
+        <p style="font-size: 0.85rem; font-weight: 400; opacity: 0.9;">Sitio Web Informativo del Mes Patrio</p>
+    </footer>
+
+</body>
+</html>
