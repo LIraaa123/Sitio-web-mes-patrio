@@ -1,4 +1,3 @@
-/* Variables de Color Patrios */
 :root {
     --verde-patrio: #006847;
     --blanco: #ffffff;
@@ -23,7 +22,6 @@ body {
     line-height: 1.6;
 }
 
-/* Banner Superior */
 .hero {
     background-color: rgba(255, 255, 255, 0.95);
     padding: 40px 20px;
@@ -45,7 +43,6 @@ body {
     margin-top: 5px;
 }
 
-/* Navegación */
 .navbar {
     display: flex;
     justify-content: center;
@@ -70,14 +67,12 @@ body {
     background-color: var(--verde-patrio);
 }
 
-/* Contenedor Principal */
 .main-container {
     max-width: 950px;
     margin: 30px auto;
     padding: 0 15px;
 }
 
-/* Tarjetas Principales Neutras (Para no saturar la lectura) */
 .section-card {
     background-color: #ffffff;
     border-radius: 12px;
@@ -96,7 +91,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* Timeline / Cronología */
 .timeline {
     border-left: 3px solid var(--verde-patrio);
     padding-left: 20px;
@@ -133,7 +127,6 @@ body {
     font-size: 1.15rem;
 }
 
-/* Botones de Acción Intersectados */
 .action-banner {
     text-align: center;
     margin: 25px 0;
@@ -157,7 +150,6 @@ body {
     background-color: #bfdbfe;
 }
 
-/* Grid de Personajes */
 .grid-personajes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -177,11 +169,13 @@ body {
     color: var(--texto-oscuro);
 }
 
-.card-personaje .tat: 600;
+.card-personaje .tag {
+    color: var(--rojo-patrio);
+    font-size: 0.85rem;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
-/* Lista de Sabias Que */
 .facts-list {
     padding-left: 20px;
 }
@@ -194,35 +188,10 @@ body {
     border: 1px solid #eee;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.85);
-    color: var(--blanco);
-    font-size: 0.9rem;
-    margin-top: 40px;
-}
-
-/* Responsivo */
-@media (max-width: 600px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-g {
-    color: var(--rojo-patrio);
-    font-size: 0.85rem;
-    font-weigh
-  /* Estilo del Pie de Página (Footer) con datos del alumno */
 footer {
     text-align: center;
     padding: 25px 20px;
-    background-color: rgba(0, 104, 71, 0.95); /* Verde patrio sólido */
+    background-color: rgba(0, 104, 71, 0.95);
     color: #ffffff;
     font-size: 1rem;
     font-weight: 600;
@@ -237,7 +206,6 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Marca de agua / Firma del alumno como en la imagen de muestra */
 .watermark-name {
     color: #004d34;
     font-weight: 700;
@@ -245,4 +213,14 @@ footer {
     margin-top: 15px;
     margin-bottom: 15px;
     opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 }
