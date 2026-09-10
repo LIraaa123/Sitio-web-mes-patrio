@@ -218,31 +218,4 @@ g {
     color: var(--rojo-patrio);
     font-size: 0.85rem;
     font-weigh
-    /* Estilo del Pie de Página (Footer) con datos del alumno */
-footer {
-    text-align: center;
-    padding: 25px 20px;
-    background-color: rgba(0, 104, 71, 0.95); /* Verde patrio sólido */
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 40px;
-    border-top: 4px solid var(--rojo-patrio);
-    box-shadow: var(--sombra);
-}
-
-.student-info {
-    font-size: 1.1rem;
-    letter-spacing: 0.5px;
-    margin-bottom: 5px;
-}
-
-/* Marca de agua / Firma del alumno como en la imagen de muestra */
-.watermark-name {
-    color: #004d34;
-    font-weight: 700;
-    font-size: 0.95rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    opacity: 0.85;
-}
+  
