@@ -69,7 +69,7 @@ body {
     transition: background 0.3s ease;
 }
 
-.btn-nav:hover {
+.btn-nav:hover, .btn-nav.active {
     background-color: var(--verde-patrio);
 }
 
